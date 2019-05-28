@@ -25,8 +25,8 @@ steps:
     codeCoverageTool: 'JaCoCo'
     #summaryFileLocation: '**/surefire-reports/junitreports/TEST-*.xml'
     summaryFileLocation: '**/site/jacoco/jacoco.xml'
-    reportDirectory: '**/site/cobertura'
-    #additionalCodeCoverageFiles: '**/site/jacoco/**'
+    #reportDirectory: '**/site/cobertura'
+    additionalCodeCoverageFiles: '**/site/jacoco/**'
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'

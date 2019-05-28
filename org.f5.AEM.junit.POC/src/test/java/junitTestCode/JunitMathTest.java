@@ -21,7 +21,7 @@ public class JunitMathTest {
 		Assert.assertEquals(obj.getAbsVal(-2), 2);
 	}
 	
-	@Test
+	//@Test
 	public void unitTest3()
 	{
 		JunitMathCode obj = new JunitMathCode();

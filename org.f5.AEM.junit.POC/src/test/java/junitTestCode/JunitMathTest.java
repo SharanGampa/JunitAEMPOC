@@ -36,4 +36,11 @@ public class JunitMathTest {
 		sqroot obj = new sqroot();
 		Assert.assertEquals(obj.getSqrt(4), 2);
 	}
+	
+	@Test
+	public void unitTest5()
+	{
+		SquareCode obj = new SquareCode();
+		Assert.assertEquals(obj.getCubeVal(4), 64);
+	}
 }

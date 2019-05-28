@@ -4,6 +4,7 @@ public class sqroot {
 	
 	public int getSqrt(int no)
 	{
-		return no^-2;
+		
+		return (int) Math.sqrt(no);
 	}
 }

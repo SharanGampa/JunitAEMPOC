@@ -50,7 +50,7 @@
 							<haltOnFailure>true</haltOnFailure>
 							<rules>
 								<rule>
-									<element>CLASS</element>
+									<!-- <element>CLASS</element> -->
 									<limits>
 										<limit>
 											<counter>LINE</counter>
@@ -63,9 +63,9 @@
 											<minimum>0.80</minimum>
 										</limit>
 									</limits>
-									<excludes>
+									<!-- <excludes>
 										<exclude>com.test.ExampleExclusion</exclude>
-									</excludes>
+									</excludes> -->
 								</rule>
 							</rules>
 						</configuration>

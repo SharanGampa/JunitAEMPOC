@@ -20,6 +20,7 @@ steps:
     publishJUnitResults: 'true'
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'install'
+    codeCoverageToolOption: JaCoCo
   continueOnError: true
 - task: PublishCodeCoverageResults@1
   inputs:

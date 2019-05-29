@@ -42,6 +42,5 @@ public class JunitMathTest {
 	{
 		SquareCode obj = new SquareCode();
 		Assert.assertEquals(obj.getCubeVal(4), 64);
-		System.out.println("Demo to Ravi");
 	}
 }

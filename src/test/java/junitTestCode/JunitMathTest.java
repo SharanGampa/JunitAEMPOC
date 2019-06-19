@@ -16,7 +16,7 @@ public class JunitMathTest {
 		Assert.assertEquals(obj.getAbsVal(-1), 1);
 	}
 		
-	/*@Test
+	@Test
 	public void unitTest2()
 	{
 		JunitMathCode obj = new JunitMathCode();
@@ -42,5 +42,5 @@ public class JunitMathTest {
 	{
 		SquareCode obj = new SquareCode();
 		Assert.assertEquals(obj.getCubeVal(4), 64);
-	}*/
+	}
 }

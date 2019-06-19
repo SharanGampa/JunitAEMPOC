@@ -30,17 +30,17 @@ public class JunitMathTest {
 		Assert.assertEquals(obj.getSquareVal(2), 4);
 	}
 	
-	/*@Test
+	@Test
 	public void unitTest4()
 	{
 		sqroot obj = new sqroot();
 		Assert.assertEquals(obj.getSqrt(4), 2);
-	}*/
+	}
 	
-	/*@Test
+	@Test
 	public void unitTest5()
 	{
 		SquareCode obj = new SquareCode();
 		Assert.assertEquals(obj.getCubeVal(4), 64);
-	}*/
+	}
 }

@@ -53,7 +53,7 @@
 							<haltOnFailure>true</haltOnFailure>
 							<rules>
 								<rule>
-									<element>PROJECT</element>
+									<element>BUILD</element>
 									<limits>
 										<limit>
 											<counter>LINE</counter>

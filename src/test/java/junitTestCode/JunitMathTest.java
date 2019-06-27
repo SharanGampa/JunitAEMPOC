@@ -45,14 +45,14 @@ public class JunitMathTest {
 		Assert.assertEquals(obj.getCubeVal(4), 64);
 	}
 	
-	//@Test
+	@Test
 	public void unitTest6()
 	{
 		AreaCalcCode obj = new AreaCalcCode();
 		Assert.assertEquals(obj.rectArea(16, 4), 64);
 	}
 	
-	//@Test
+	@Test
 	public void unitTest7()
 	{
 		AreaCalcCode obj = new AreaCalcCode();

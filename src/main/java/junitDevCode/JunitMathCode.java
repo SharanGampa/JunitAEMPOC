@@ -2,6 +2,7 @@ package junitDevCode;
 
 public class JunitMathCode {
 	
+	
 	public int getAbsVal(int no)
 	{
 		if(no < 0)
@@ -9,4 +10,5 @@ public class JunitMathCode {
 		else
 			return no;
 	}
+
 }

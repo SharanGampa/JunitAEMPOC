@@ -2,12 +2,12 @@ package junitDevCode;
 
 public class AreaCalcCode {
 	
-	public double sqrArea(double length)
+	public int sqrArea(int length)
 	{
 		return length*length;
 	}
 	
-	public double rectArea(double length, double breadth)
+	public int rectArea(int length, int breadth)
 	{
 		return length*breadth;
 	}

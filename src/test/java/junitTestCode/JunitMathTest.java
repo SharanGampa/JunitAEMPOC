@@ -3,6 +3,7 @@ package junitTestCode;
 import org.junit.Assert;
 import org.junit.Test;
 
+import junitDevCode.AreaCalcCode;
 import junitDevCode.JunitMathCode;
 import junitDevCode.SquareCode;
 import junitDevCodeDiffPkg.sqroot;
@@ -42,5 +43,19 @@ public class JunitMathTest {
 	{
 		SquareCode obj = new SquareCode();
 		Assert.assertEquals(obj.getCubeVal(4), 64);
+	}
+	
+	//@Test
+	public void unitTest6()
+	{
+		AreaCalcCode obj = new AreaCalcCode();
+		Assert.assertEquals(obj.rectArea(16, 4), 64);
+	}
+	
+	//@Test
+	public void unitTest7()
+	{
+		AreaCalcCode obj = new AreaCalcCode();
+		Assert.assertEquals(obj.sqrArea(8), 64);
 	}
 }

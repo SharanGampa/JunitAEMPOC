@@ -17,7 +17,7 @@ public class JunitMathTest {
 		Assert.assertEquals(obj.getAbsVal(-1), 1);
 	}
 		
-	@Test
+	//@Test
 	public void unitTest2()
 	{
 		JunitMathCode obj = new JunitMathCode();
@@ -31,7 +31,7 @@ public class JunitMathTest {
 		Assert.assertEquals(obj.getSquareVal(2), 4);
 	}
 	
-	@Test
+	//@Test
 	public void unitTest4()
 	{
 		sqroot obj = new sqroot();
@@ -52,7 +52,7 @@ public class JunitMathTest {
 		Assert.assertEquals(obj.rectArea(16, 4), 64);
 	}
 	
-	@Test
+	//@Test
 	public void unitTest7()
 	{
 		AreaCalcCode obj = new AreaCalcCode();

@@ -42,7 +42,7 @@
 						<goals>
 							<goal>report</goal>
 						</goals>
-						<!-- <configuration> <outputDirectory>.</outputDirectory> </configuration> -->
+						<configuration> <outputDirectory>.</outputDirectory> </configuration>
 					</execution>
 					<execution>
 						<id>check</id>
@@ -65,7 +65,7 @@
 											<minimum>0.80</minimum>
 										</limit>
 									</limits>
-									<!-- <excludes> <exclude>com.test.ExampleExclusion</exclude> </excludes> -->
+									<excludes> <exclude>com.test.ExampleExclusion</exclude> </excludes>
 								</rule>
 							</rules>
 						</configuration>
